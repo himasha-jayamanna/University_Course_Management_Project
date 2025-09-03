@@ -18,6 +18,6 @@ Run:
 mvn clean install
 mvn spring-boot:run
 
-2. Frontend:
+2.Frontend:
 Install dependencies: npm install
 Start frontend: npm start
