@@ -1,0 +1,66 @@
+:root {
+  --uok-orange: #f05323;
+  --uok-dark: #212529;
+  --uok-light: #f8f9fa;
+}
+
+body {
+  background-color: var(--uok-light);
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.btn-primary {
+  background-color: var(--uok-orange);
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  color: white;
+  transition: transform 0.2s ease;
+}
+
+.btn-primary:hover {
+  transform: scale(1.05);
+  background-color: #d9481f;
+}
+
+.btn-primary-rounded {
+  background-color: var(--uok-orange);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+  transition: transform 0.2s ease;
+}
+
+.btn-primary-rounded:hover {
+  transform: scale(1.05);
+  background-color: #d9481f;
+}
+
+.btn-secondary {
+  background-color: var(--uok-dark);
+  color: white;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+}
+
+.btn-sm {
+  margin: 0 4px;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.btn-edit { background-color: #0d6efd; color: white; }
+.btn-delete { background-color: #dc3545; color: white; }
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+}
+
+.table th, .table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
