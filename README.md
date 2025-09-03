@@ -15,9 +15,9 @@ Configure application.properties with MySQL credentials
 
 Run:
 
-mvn clean install
+mvn clean install \n
 mvn spring-boot:run
 
 2.Frontend:
-Install dependencies: npm install
+Install dependencies: npm install \n
 Start frontend: npm start
